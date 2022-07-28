@@ -127,6 +127,7 @@ p{
 }
 .hero{
     background-color:var(--hero-color) ;
+    padding: 200px 0;
 }
 .hero h1{
   
@@ -222,11 +223,10 @@ p{
 
 .our-team{
     background-color: var(--button-color-port);
+    padding: 94px 0;
 }
 
-.our-team .team-head{
-    padding-top: 94px;
-}
+
 
 .team-head {
     color: var(--main-color-black);
@@ -235,11 +235,6 @@ p{
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-}
-
-.container.guy{
-   
-    padding-bottom: 94px;
 }
 .team{
     display: flex;
@@ -277,13 +272,14 @@ border-radius: 0px 0px 4px 4px;
 } 
 
 .names{
-    padding-top: 30px;
-}
-.post{
-    padding-top: 10px;;
+    padding-bottom: 10px;
 }
 
-.container .midle{
+.team-between{
+    padding:30px 0;
+}
+
+.midle{
     padding-top: 94px;;
     padding-bottom: 94px;
 }
@@ -363,6 +359,10 @@ border-radius: 0px 0px 4px 4px;
 
 }
 
+.menu-cont{
+    padding: 20px 24px; 
+}
+
 .pick a{
     text-decoration: none;
 }
@@ -391,18 +391,10 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .footer{
-    background-color: var(--hero-color);
-    border: 3px solid transparent;
-    
-}
-.footering{
-margin-bottom: 60px;
+    background-color: var(--hero-color);    
+    padding: 60px 0;
 }
 
-.footer .main-logo{
-    display: inline-block;
-    margin-top: 60px;
-}
 .logo-white{
     color: var(--main-color-white);
 }
